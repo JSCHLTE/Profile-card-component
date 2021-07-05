@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #19a2ae;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: right 55vw bottom 40vh, left 45vw top 50vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  width: 400px;
+  height: 425px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image {
+  height: 235px;
+}
+
+.card-image .pattern {
+  width: 100%;
+  height: 150px;
+}
+
+.card-image .pfp {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border: 5px solid white;
+  border-radius: 50px;
+}
+
+.card-info .user {
+  color: #2d3248;
+  margin-right: 5px;
+  font-weight: 700;
+}
+
+.card-info h4 {
+  color: #6a6f81;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.card-info .location {
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+.card-stats {
+  border-top: 1px solid #c8c8c8;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.card-stats th, .card-stats td {
+  padding: 0 20px;
+}
+
+.card-stats th {
+  color: #2d3248;
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+.card-stats td {
+  color: #6a6f81;
+  font-size: 10pt;
+  letter-spacing: 2px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */
